@@ -1,0 +1,22 @@
+{
+  "author": {
+    "name": "Yarvis405",
+    "url": "https://www.devartus.site"
+  },
+  "name": "funnel",
+  "description": "tweaks and shows",
+  "keywords": [
+    "funnel",
+    "api",
+    "update",
+    "tweak"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Yarvis405/funnel.git"
+  },
+  "main": "./index.js",
+  "dependencies": {}
+}
