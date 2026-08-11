@@ -43,7 +43,7 @@ import { funnel } from pipe
 
 const res = funnel({
         data: [{h:1}, {l:2}, {f:4}], 
-        index: 3
+        index: 3,
         tweak: {
             h: 4,
             l: 5
