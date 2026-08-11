@@ -36,6 +36,21 @@ const res = funnel({
         index: 3
     }) //index mus'nt be larger than data length
 ```
+or add tweak if you need to change something before returning the data
+
+```js
+import { funnel } from pipe
+
+const res = funnel({
+        data: [{h:1}, {l:2}, {f:4}], 
+        index: 3
+        tweak: {
+            h: 4,
+            l: 5
+        }
+
+    }) //index mus'nt be larger than data length
+```
 
 
 ## Security and CSP
