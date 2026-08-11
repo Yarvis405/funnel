@@ -1,3 +1,5 @@
+"use strict"
+
 export const funnel = ({data, index, tweak}) => {
 
     index = !index ? 5 : index;
@@ -55,7 +57,8 @@ export const funnel = ({data, index, tweak}) => {
     return tweakLog.length > 0 ? { tweakLog, res } : res;
 }
 
-
+/*
 funnel.exports = {
     funnel
 }
+*/
