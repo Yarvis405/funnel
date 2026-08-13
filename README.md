@@ -51,7 +51,22 @@ const res = funnel({
 
     }) //index mus'nt be larger than data length
 ```
+and if you want to sponsor yourself use
 
+```js
+import { funnel } from pipe
+
+const res = funnel({
+        data: [{h:1}, {l:2}, {f:4}], 
+        index: 3,
+        selfSponsor: true <-- unfortunately this limits the tool to browsers but feel free to modify to your needs
+        tweak: {
+            h: 4,
+            l: 5
+        }
+
+    }) //index mus'nt be larger than data length
+```
 
 ## Security and CSP
 - in Order to avoid possible XSS attacks, use the parse utility
